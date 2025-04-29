@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="home" />
+        <item
+            android:id="@+id/nav_perfil"
+            android:icon="@drawable/baseline_person_24"
+            android:title="Perfil" />
+        <item
+            android:id="@+id/nav_configuracoes"
+            android:icon="@drawable/baseline_settings_24"
+            android:title="Configs" />
+    </group>
+
+    <item android:title="Mais..">
+        <menu>
+            <item
+                android:id="@+id/nav_compartilhar"
+                android:title="Compartilhar" />
+            <item
+                android:id="@+id/nav_sobre"
+                android:title="Sobre" />
+        </menu>
+    </item>
+</menu>

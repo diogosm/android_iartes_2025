@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">login_e_logado_com_menu</string>
+    <string name="menu_open">Abrir Menu</string>
+    <string name="menu_close">Fechar Menu</string>
+</resources>
