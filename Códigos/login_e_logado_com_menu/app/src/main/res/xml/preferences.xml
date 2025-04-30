@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Preference category">
+        <EditTextPreference
+            android:defaultValue="Default value"
+            android:key="senha_padrao"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="Setar a senha padrão"
+            android:title="Setar a senha" />
+        <PreferenceCategory android:title="Preference category">
+
+            <EditTextPreference
+                android:defaultValue="Default value"
+                android:key="edit_text_preference_1"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:title="Edit text preference" />
+        </PreferenceCategory>
+    </PreferenceCategory>
+</PreferenceScreen>

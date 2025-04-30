@@ -13,10 +13,10 @@
         android:theme="@style/Theme.Login_e_logado_com_menu"
         tools:targetApi="31">
         <activity
-            android:name=".tela_logada"
+            android:name=".CadastroMusica"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,6 +24,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".PreferencesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".tela_logada"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"></activity>
     </application>
 
 </manifest>

@@ -2,6 +2,7 @@ package com.example.login_e_logado_com_menu;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.MenuItem;
@@ -20,6 +21,7 @@ import androidx.core.view.GravityCompat;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.preference.PreferenceManager;
 
 import com.google.android.material.navigation.NavigationView;
 
@@ -56,9 +58,19 @@ public class MainActivity extends AppCompatActivity {
                 login.getText().toString() +
                 " e a senha é " +
                 password.getText().toString();
+
+        SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
+        String senhaPadrao = sharedPreferences.getString("senha_padrao", "admin");
+
+//        SharedPreferences.Editor editor = sharedPreferences.edit();
+//        editor.putString("senha_padrao", "senha2");
+//        editor.apply();
+
+        Log.i("Debug", "A senha padrão é: " + senhaPadrao);
+
         if(
                 login.getText().toString().equals("admin")
-                        && password.getText().toString().equals("admin")
+                        && password.getText().toString().equals(senhaPadrao)
         ){
             Toast notif = Toast.makeText(this,
                     msg,

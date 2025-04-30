@@ -1,7 +1,9 @@
 package com.example.login_e_logado_com_menu;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -47,6 +49,11 @@ public class tela_logada extends AppCompatActivity implements NavigationView.OnN
         }
     }
 
+    public void abrirCadastroMusica(View view) {
+        Intent intent = new Intent(this, CadastroMusica.class);
+        startActivity(intent);
+    }
+
     @Override
     public void onBackPressed() {
         // Fecha o drawer se estiver aberto quando o botão voltar clicado
@@ -67,6 +74,9 @@ public class tela_logada extends AppCompatActivity implements NavigationView.OnN
             Toast.makeText(this, "Clicou em Perfil", Toast.LENGTH_SHORT).show();
         } else if (id == R.id.nav_configuracoes) {
             Toast.makeText(this, "Clicou em Configurações", Toast.LENGTH_SHORT).show();
+
+            Intent intent = new Intent(this, PreferencesActivity.class);
+            startActivity(intent);
         } else if (id == R.id.nav_compartilhar) {
             Toast.makeText(this, "Clicou em Compartilhar", Toast.LENGTH_SHORT).show();
         } else if (id == R.id.nav_sobre) {
