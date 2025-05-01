@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Home"
+        android:title="Item 1"
+        android:icon="@drawable/baseline_home_24"
+        >
+    </item>
+    <item
+        android:id="@+id/dadosItemMenu"
+        android:title="Item 2"
+        android:icon="@drawable/baseline_list_24"
+        >
+    </item>
+    <item
+        android:id="@+id/pontosItemMenu"
+        android:title="Item 3"
+        android:icon="@drawable/baseline_laptop_chromebook_24"
+        >
+    </item>
+    <item
+        android:id="@+id/outraCoisaItemMenu"
+        android:title="Item 4"
+        android:icon="@drawable/baseline_pets_24"
+        >
+    </item>
+</menu>
