@@ -17,6 +17,7 @@ Aulas do IARTES
 - Aula 4 - https://docs.google.com/presentation/d/1Cbgb0PZ60-OCB1bn24b1RPvDhjl-RNbSHMxZIl8EnLo/edit?usp=sharing
 - Aula 5 - https://docs.google.com/presentation/d/103XSlcC_FtIKZtY40U-eRatByGAsfiCNONxYdOnpJTc/edit?usp=sharing
 - Aula 6 - Extra - https://docs.google.com/presentation/d/1q9_WE1QbWSX6jTCYJYB9k06QumXRupDn_ScyC55u2uo/edit?usp=sharing
+- Aula 7 - https://docs.google.com/presentation/d/1BbQ31hbDJTjsOswL3urW8hZ6d4RWE8KOIhKmqsfNFlo/edit?usp=sharing
 
 ## Slides
 - [2 - Introdução ao Android pt.2.pdf](Slides/2%20-%20Introdu%C3%A7%C3%A3o%20ao%20Android%20pt.2.pdf)
