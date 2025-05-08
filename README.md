@@ -35,7 +35,7 @@ Aulas do IARTES
 |------|------|-----------|
 | 8 | 06/05 | Notifications e mapas, mockups dos projetos e acompanhamento |
 | 9 | 08/05 | Implementação, apresentação parcial para quem estiver com o desenvolvimento mais maduro |
-| Entrega Final | 11/05 | Entrega final do projeto (vídeo) |
+| Entrega Final | 16/05 | Entrega final do projeto (vídeo & slide) |
 
 ### Temas dos Projetos
 
